@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-01T14:47:38.314Z",
+        "line": 3,
+        "name": "Varification of login Function",
+        "description": "",
+        "id": "login-functionality-of-demo.opencart-website;varification-of-login-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5505000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Firefox",
+            "match": {
+              "location": "com.StepDefinitions.Steps.open_firefox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3097000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Login page",
+            "match": {
+              "location": "com.StepDefinitions.Steps.open_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2375000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter valid email and password",
+            "match": {
+              "location": "com.StepDefinitions.Steps.enter_valid_email_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1812000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login with this valid credentals",
+            "match": {
+              "location": "com.StepDefinitions.Steps.login_with_this_valid_credentals()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality of demo.opencart website",
+    "description": "",
+    "id": "login-functionality-of-demo.opencart-website",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": []
+  }
+]

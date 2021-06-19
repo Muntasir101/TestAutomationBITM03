@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65320" started-at="2020-12-12T20:50:22 BDT" finished-at="2020-12-12T20:51:27 BDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65320" started-at="2020-12-12T20:50:22 BDT" finished-at="2020-12-12T20:51:27 BDT">
+      <class name="com.TestNG.DataProviderTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="setupBrowser" is-config="true" duration-ms="11376" started-at="2020-12-12T20:50:22 BDT" finished-at="2020-12-12T20:50:34 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="LoginTest" duration-ms="5635" started-at="2020-12-12T20:50:34 BDT" data-provider="LoginData" finished-at="2020-12-12T20:50:39 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail1@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="tearDown" is-config="true" duration-ms="2141" started-at="2020-12-12T20:50:39 BDT" finished-at="2020-12-12T20:50:41 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="setupBrowser" is-config="true" duration-ms="9485" started-at="2020-12-12T20:50:41 BDT" finished-at="2020-12-12T20:50:51 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="LoginTest" duration-ms="5453" started-at="2020-12-12T20:50:51 BDT" data-provider="LoginData" finished-at="2020-12-12T20:50:56 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail2@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="tearDown" is-config="true" duration-ms="2272" started-at="2020-12-12T20:50:56 BDT" finished-at="2020-12-12T20:50:59 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="setupBrowser" is-config="true" duration-ms="8475" started-at="2020-12-12T20:50:59 BDT" finished-at="2020-12-12T20:51:07 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="LoginTest" duration-ms="5564" started-at="2020-12-12T20:51:07 BDT" data-provider="LoginData" finished-at="2020-12-12T20:51:13 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail3@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="tearDown" is-config="true" duration-ms="2925" started-at="2020-12-12T20:51:13 BDT" finished-at="2020-12-12T20:51:16 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="setupBrowser" is-config="true" duration-ms="8874" started-at="2020-12-12T20:51:16 BDT" finished-at="2020-12-12T20:51:24 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="demo" duration-ms="0" started-at="2020-12-12T20:51:24 BDT" finished-at="2020-12-12T20:51:24 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.DataProviderTest@5f3a4b84]" name="tearDown" is-config="true" duration-ms="3051" started-at="2020-12-12T20:51:24 BDT" finished-at="2020-12-12T20:51:27 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
